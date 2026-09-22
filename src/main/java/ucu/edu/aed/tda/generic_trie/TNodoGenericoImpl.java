@@ -1,57 +1,82 @@
 package ucu.edu.aed.tda.generic_trie;
 
+import java.util.List;
 import java.util.function.Consumer;
 
-public class TArbolGenericoImpl<T extends Comparable<T>>
-        implements TArbolGenerico<T> {
+public class TNodoGenericoImpl<T extends Comparable<T>>
+        implements TNodoGenerico<T> {
 
-    private TNodoGenericoImpl<T> raiz;
+    private T dato;
+
+    private TNodoGenericoImpl<T> primerHijo;
+
+    private TNodoGenericoImpl<T> hermanoDerecho;
 
 
-    public TArbolGenericoImpl() {
-        this.raiz = null;
+    public TNodoGenericoImpl(T dato) {
+        this.dato = dato;
+        this.primerHijo = null;
+        this.hermanoDerecho = null;
     }
 
 
     @Override
-    public boolean agregarHijo(Comparable<T> padre, T hijo) {
+    public T getDato() {
+        return dato;
+    }
+
+
+    @Override
+    public boolean agregarHijo(T padre, T hijo) {
         return false;
     }
 
 
     @Override
-    public void eliminar(Comparable<T> criterio) {
-
-    }
-
-
-    @Override
-    public T obtenerPadre(Comparable<T> criterio) {
+    public TNodoGenerico<T> eliminar(Comparable<T> criterio) {
         return null;
     }
 
 
     @Override
-    public T buscar(Comparable<T> criterio) {
+    public TNodoGenerico<T> buscar(Comparable<T> criterio) {
         return null;
     }
 
 
     @Override
-    public void preOrden(Consumer<T> consumidor) {
+    public TNodoGenerico<T> obtenerPadre(Comparable<T> criterio) {
+        return null;
+    }
+
+
+    @Override
+    public void preOrden(Consumer<TNodoGenerico<T>> consumidor) {
 
     }
 
 
     @Override
-    public void inOrden(Consumer<T> consumidor) {
+    public void inOrden(Consumer<TNodoGenerico<T>> consumidor) {
 
     }
 
 
     @Override
-    public void postOrden(Consumer<T> consumidor) {
+    public void postOrden(Consumer<TNodoGenerico<T>> consumidor) {
 
+    }
+
+
+    @Override
+    public int altura() {
+        return 0;
+    }
+
+
+    @Override
+    public int grado() {
+        return 0;
     }
 
 
@@ -62,13 +87,7 @@ public class TArbolGenericoImpl<T extends Comparable<T>>
 
 
     @Override
-    public int grado(Comparable<T> nodo) {
-        return 0;
-    }
-
-
-    @Override
-    public int altura(Comparable<T> nodo) {
-        return 0;
+    public List<T> obtenerHijos() {
+        return null;
     }
 }
