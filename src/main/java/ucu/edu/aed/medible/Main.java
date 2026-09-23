@@ -5,9 +5,8 @@ import ucu.edu.aed.medible.lib.Medible;
 import ucu.edu.aed.medible.lib.Medicion;
 import ucu.edu.aed.medible.medibles.MedicionBuscarLinkedList;
 import ucu.edu.aed.tda.trie.TTrie;
-import ucu.edu.aed.tda.trie.impl.Trie;
 import ucu.edu.aed.utils.FileUtils;
-
+import ucu.edu.aed.tda.trie.impl.Trie;
 import java.util.*;
 
 public class Main {
@@ -15,7 +14,7 @@ public class Main {
     private static final int REPETICIONES = 100;
 
     public static void main(String[] args) {
-        TTrie<String> trie = new Trie<>();
+      //  TTrie<String> trie = new Trie<>();
         LinkedList<String> linkedList = new LinkedList<>();
         ArrayList<String> arrayList = new ArrayList<>();
         Map<String, String> hashMap = new HashMap<>();

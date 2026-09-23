@@ -1,7 +1,9 @@
-package ucu.edu.aed.tda.generic_trie;
+package ucu.edu.aed.tda.generic_trie.impl;
 
 import java.util.List;
 import java.util.function.Consumer;
+
+import ucu.edu.aed.tda.generic_trie.TNodoGenerico;
 
 public class TNodoGenericoImpl<T extends Comparable<T>>
         implements TNodoGenerico<T> {
