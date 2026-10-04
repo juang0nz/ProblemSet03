@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: ucu.edu.aed.tda.generic_trie.TestTArbolGenerico
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.235 s -- in ucu.edu.aed.tda.generic_trie.TestTArbolGenerico
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.116 s -- in ucu.edu.aed.tda.generic_trie.TestTArbolGenerico

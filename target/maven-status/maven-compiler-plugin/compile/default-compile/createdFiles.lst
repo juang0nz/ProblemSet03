@@ -1,2 +1,4 @@
+ucu\edu\aed\tda\hash\impl\THashImpl.class
 ucu\edu\aed\tda\trie\impl\TTrie.class
 ucu\edu\aed\tda\trie\impl\TNodoTrie.class
+ucu\edu\aed\tda\hash\impl\TNodoHashImpl.class
