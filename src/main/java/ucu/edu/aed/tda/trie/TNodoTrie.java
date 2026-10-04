@@ -4,7 +4,7 @@ package ucu.edu.aed.tda.trie;
 import java.util.List;
 import java.util.function.Consumer;
 
-public interface TNodoTrie<T> {
+public interface TNodoTrie<T> extends java.io.Serializable {
     void recorrer(Consumer<Entry<T>> consumer);
 
     /**

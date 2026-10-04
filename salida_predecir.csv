@@ -1,0 +1,6 @@
+algoritmo,prefijo,tiempo,memoria
+MedicionPredecirTrie,cas,11,55 MB,26,02 ms
+MedicionPredecirLinkedList,cas,937,26 kB,192,50 ms
+MedicionPredecirHashMap,cas,1,33 MB,415,56 ms
+MedicionPredecirTreeMap,cas,1,33 MB,4,45 ms
+

@@ -1,2 +1,6 @@
-ucu\edu\aed\tda\trie\TestTTrie.class
+ucu\edu\aed\ejercicios\ejercicio16\TestArbolGenealogico.class
 ucu\edu\aed\tda\generic_trie\TestTArbolGenerico.class
+ucu\edu\aed\ejercicios\ejercicio12\TestAutocompletar.class
+ucu\edu\aed\ejercicios\ejercicio12\TestBuscadorDePatrones.class
+ucu\edu\aed\tda\trie\TestTTrie.class
+ucu\edu\aed\tda\trie\TestTTrieHashMap.class
