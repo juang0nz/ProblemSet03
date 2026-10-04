@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="ucu.edu.aed.tda.trie.TestTTrie" time="0.002" tests="6" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="25"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Juanchi\Desktop\AlgoritmoSegundoSemestre\UT3\ProblemSet03\target\test-classes;C:\Users\Juanchi\Desktop\AlgoritmoSegundoSemestre\UT3\ProblemSet03\target\classes;C:\Users\Juanchi\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="America/Montevideo"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="25"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="UY"/>
+    <property name="sun.boot.library.path" value="C:\Users\Juanchi\AppData\Local\Programs\Eclipse Adoptium\jdk-25.0.4.7-hotspot\bin"/>
+    <property name="sun.java.command" value="C:\Users\Juanchi\AppData\Local\Temp\surefire8732947971189002323\surefirebooter-20261003223357697_3.jar C:\Users\Juanchi\AppData\Local\Temp\surefire8732947971189002323 2026-10-03T22-33-57_358-jvmRun1 surefire-20261003223357697_1tmp surefire_0-20261003223357697_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Juanchi\Desktop\AlgoritmoSegundoSemestre\UT3\ProblemSet03\target\test-classes;C:\Users\Juanchi\Desktop\AlgoritmoSegundoSemestre\UT3\ProblemSet03\target\classes;C:\Users\Juanchi\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Juanchi"/>
+    <property name="user.language" value="es"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2026-07-21"/>
+    <property name="java.home" value="C:\Users\Juanchi\AppData\Local\Programs\Eclipse Adoptium\jdk-25.0.4.7-hotspot"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Juanchi\Desktop\AlgoritmoSegundoSemestre\UT3\ProblemSet03"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Juanchi\AppData\Local\Temp\surefire8732947971189002323\surefirebooter-20261003223357697_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="25.0.4+7-LTS"/>
+    <property name="user.name" value="Juanchi"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="skipTests" value="false"/>
+    <property name="java.vendor.version" value="Temurin-25.0.4+7"/>
+    <property name="localRepository" value="C:\Users\Juanchi\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\Juanchi\AppData\Local\Temp\"/>
+    <property name="java.version" value="25.0.4"/>
+    <property name="user.dir" value="C:\Users\Juanchi\Desktop\AlgoritmoSegundoSemestre\UT3\ProblemSet03"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Users\Juanchi\AppData\Local\Programs\Eclipse Adoptium\jdk-25.0.4.7-hotspot\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\Juanchi\nodejs;C:\Users\Juanchi\AppData\Local\Programs\Eclipse Adoptium\jdk-25.0.4.7-hotspot\bin;C:\Users\Juanchi\AppData\Local\Microsoft\WindowsApps;C:\Users\Juanchi\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Juanchi\Maven\apache-maven-3.9.16\bin;;c:\Users\Juanchi\AppData\Local\Programs\Microsoft VS Code\7debcd0e2a\resources\app\node_modules.asar.unpacked\@vscode\ripgrep-universal\bin\win32-x64;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="25.0.4+7-LTS"/>
+    <property name="stdin.encoding" value="Cp1252"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="69.0"/>
+  </properties>
+  <testcase name="testInsertarDuplicadoYBuscarPrefijo" classname="ucu.edu.aed.tda.trie.TestTTrie" time="0.0"/>
+  <testcase name="testInsertarYBuscar" classname="ucu.edu.aed.tda.trie.TestTTrie" time="0.0"/>
+  <testcase name="testInsertarNull" classname="ucu.edu.aed.tda.trie.TestTTrie" time="0.0"/>
+  <testcase name="testCaracteresInvalidos" classname="ucu.edu.aed.tda.trie.TestTTrie" time="0.0"/>
+  <testcase name="testPredecirYRecorrer" classname="ucu.edu.aed.tda.trie.TestTTrie" time="0.0"/>
+  <testcase name="testInsertarCadenaVacia" classname="ucu.edu.aed.tda.trie.TestTTrie" time="0.0"/>
+</testsuite>

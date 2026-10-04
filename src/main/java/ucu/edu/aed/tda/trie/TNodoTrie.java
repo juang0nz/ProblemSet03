@@ -8,10 +8,8 @@ public interface TNodoTrie<T> {
     void recorrer(Consumer<Entry<T>> consumer);
 
     /**
-     * Retorna
+     * Retorna un Entry que contiene la palabra buscada y su estado:
      * -1 si no se encuentra "palabra" en el trie
-     * 1 si existe y es una palabra completa
-     * 0 si existe y NO es una palabra completa
      */
     Entry<T> buscar(String palabra);
 
