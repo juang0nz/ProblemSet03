@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: ucu.edu.aed.ejercicios.ejercicio12.TestBuscadorDePatrones
 -------------------------------------------------------------------------------
-Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s -- in ucu.edu.aed.ejercicios.ejercicio12.TestBuscadorDePatrones
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s -- in ucu.edu.aed.ejercicios.ejercicio12.TestBuscadorDePatrones
