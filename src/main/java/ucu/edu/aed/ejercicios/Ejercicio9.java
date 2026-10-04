@@ -1,4 +1,4 @@
-package ucu.edu.aed.medible;
+package ucu.edu.aed.ejercicios;
 
 import ucu.edu.aed.tda.hash.THash;
 import ucu.edu.aed.tda.hash.Report;
